@@ -1,6 +1,25 @@
-
 {
-  "version": "1.0.0",
-  "packageUrl": "https://github.com/scr1ptt99/Updates/releases/download/v1.0.0/ONETAP_1.0.0.zip",
-  "sha256": "6B577630FBB6ECD5E08020B2ACC5A5793A8AFA2837EB5971A79E82646726DD4F"
+    "version":  "1.0.1",
+    "packageUrl":  "https://github.com/scr1ptt99/Updates/releases/download/v1.0.1/ONETAP_1.0.1.zip",
+    "sha256":  "FE33DD6A1DAF10B563CE6CF85CB21521A398A0E9B11E40409BD4AB7C9D8091B6",
+    "patches":  [
+                    {
+                        "fromVersion":  "1.0.0",
+                        "patchUrl":  "https://github.com/scr1ptt99/Updates/releases/download/v1.0.1/ONETAP_patch.zip",
+                        "sha256":  "7EA698553B7714511262B877EB1D2B858C8F114EDB32E1F7603E824069F8EB9D",
+                        "files":  [
+                                      {
+                                          "path":  "ONETAP_Data/boot.config",
+                                          "sha256":  "01ED3B3263C649660E3B606E665C29C0291D9FAD42364C78E4E90138D01F7D6F"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/globalgamemanagers",
+                                          "sha256":  "3FCDCE0400820CB3E4728ABD61C54F42047C0252C159B54D558E98CA9F1AA242"
+                                      }
+                                  ],
+                        "delete":  [
+
+                                   ]
+                    }
+                ]
 }
