@@ -1,24 +1,98 @@
 {
-    "version":  "1.0.1",
-    "packageUrl":  "https://github.com/scr1ptt99/Updates/releases/download/v1.0.1/ONETAP_1.0.1.zip",
-    "sha256":  "FE33DD6A1DAF10B563CE6CF85CB21521A398A0E9B11E40409BD4AB7C9D8091B6",
+    "version":  "1.0.2",
+    "packageUrl":  "https://github.com/scr1ptt99/Updates/releases/download/v1.0.2/ONETAP_1.0.2.zip",
+    "sha256":  "0885B24C67249106D63357E6EF1F08F13ED577060B4DEEAE7F82A3EEF2BF3114",
     "patches":  [
                     {
-                        "fromVersion":  "1.0.0",
-                        "patchUrl":  "https://github.com/scr1ptt99/Updates/releases/download/v1.0.1/ONETAP_patch.zip",
-                        "sha256":  "7EA698553B7714511262B877EB1D2B858C8F114EDB32E1F7603E824069F8EB9D",
+                        "fromVersion":  "1.0.1",
+                        "patchUrl":  "https://github.com/scr1ptt99/Updates/releases/download/v1.0.2/ONETAP_patch_1.0.2.zip",
+                        "sha256":  "584872C301B13524E0800B1390FE386DF7CAB963F5EA297F64F88D03D0793F78",
                         "files":  [
                                       {
+                                          "path":  "GameAssembly.dll",
+                                          "sha256":  "97E1902CF9E8BBFE2669441F7678EE85849180C65964FCC19BC4ECB08037C5A2"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/Resources/unity_builtin_extra",
+                                          "sha256":  "8BA8849A60BAE801D6E700DF5E44D991931BDA6618B8789B7758D67112F187BB"
+                                      },
+                                      {
                                           "path":  "ONETAP_Data/boot.config",
-                                          "sha256":  "01ED3B3263C649660E3B606E665C29C0291D9FAD42364C78E4E90138D01F7D6F"
+                                          "sha256":  "7966316DEEDFF3A58813947FA5C3276EB45D63BBE3B95E21B860CDF153B07C19"
                                       },
                                       {
                                           "path":  "ONETAP_Data/globalgamemanagers",
-                                          "sha256":  "3FCDCE0400820CB3E4728ABD61C54F42047C0252C159B54D558E98CA9F1AA242"
+                                          "sha256":  "39BEF64999435B28435C01E97C45429E3CE5CEBA54074561CB5D84BC6DFDDF84"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/globalgamemanagers.assets",
+                                          "sha256":  "99A3B835341F3B597B4F1379EC4622357CB84889E0BBD23DDFB2719EB79C3E04"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/il2cpp_data/Metadata/global-metadata.dat",
+                                          "sha256":  "ED74961E460B4D24291B946AFB1DDD5E58F78B577E50C486773B7B68D5062233"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/level0",
+                                          "sha256":  "AC938FE8B4059E78FC283327B9B50D477C54BB0858F0B3A50BAD98ECDD0A5A7C"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/resources.assets",
+                                          "sha256":  "E2C5CCF414ED2F268BBDC9C8E4513DE5F825258992AAB39768FA4F429A7972B5"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/resources.resource",
+                                          "sha256":  "DB067E455239E8415942AABAF4CDEF2C8661A67612F75199E9DAC48D3BF6D013"
                                       }
                                   ],
                         "delete":  [
-
+                                       "ONETAP_Data/level0.resS"
+                                   ]
+                    },
+                    {
+                        "fromVersion":  "1.0.0",
+                        "patchUrl":  "https://github.com/scr1ptt99/Updates/releases/download/v1.0.2/ONETAP_patch_1.0.2.zip",
+                        "sha256":  "584872C301B13524E0800B1390FE386DF7CAB963F5EA297F64F88D03D0793F78",
+                        "files":  [
+                                      {
+                                          "path":  "GameAssembly.dll",
+                                          "sha256":  "97E1902CF9E8BBFE2669441F7678EE85849180C65964FCC19BC4ECB08037C5A2"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/Resources/unity_builtin_extra",
+                                          "sha256":  "8BA8849A60BAE801D6E700DF5E44D991931BDA6618B8789B7758D67112F187BB"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/boot.config",
+                                          "sha256":  "7966316DEEDFF3A58813947FA5C3276EB45D63BBE3B95E21B860CDF153B07C19"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/globalgamemanagers",
+                                          "sha256":  "39BEF64999435B28435C01E97C45429E3CE5CEBA54074561CB5D84BC6DFDDF84"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/globalgamemanagers.assets",
+                                          "sha256":  "99A3B835341F3B597B4F1379EC4622357CB84889E0BBD23DDFB2719EB79C3E04"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/il2cpp_data/Metadata/global-metadata.dat",
+                                          "sha256":  "ED74961E460B4D24291B946AFB1DDD5E58F78B577E50C486773B7B68D5062233"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/level0",
+                                          "sha256":  "AC938FE8B4059E78FC283327B9B50D477C54BB0858F0B3A50BAD98ECDD0A5A7C"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/resources.assets",
+                                          "sha256":  "E2C5CCF414ED2F268BBDC9C8E4513DE5F825258992AAB39768FA4F429A7972B5"
+                                      },
+                                      {
+                                          "path":  "ONETAP_Data/resources.resource",
+                                          "sha256":  "DB067E455239E8415942AABAF4CDEF2C8661A67612F75199E9DAC48D3BF6D013"
+                                      }
+                                  ],
+                        "delete":  [
+                                       "ONETAP_Data/level0.resS"
                                    ]
                     }
                 ]
